@@ -13,7 +13,7 @@ body {
 header {
     background-color: #ffeb3b;
     text-align: center;
-    padding: 50px 20px;
+    padding: 60px 20px;
     position: relative;
 }
 
@@ -25,13 +25,15 @@ header .logo {
 }
 
 header img {
-    width: 80px;
-    height: 80px;
+    width: 100px;  /* Ajuste para logo 3D */
+    height: 100px;
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
+    color: #6d4c41;
+    margin-top: 15px;
 }
 
 header h2 {
@@ -49,8 +51,8 @@ header h2 {
     background-color: #ff9800;
     border: none;
     color: white;
-    font-size: 1.5rem;
-    padding: 20px 40px;
+    font-size: 1.6rem;
+    padding: 25px 50px;
     border-radius: 50px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -64,6 +66,7 @@ header h2 {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+    padding: 30px;
 }
 
 .section {
@@ -76,7 +79,7 @@ header h2 {
 }
 
 .section h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: #6d4c41;
 }
@@ -93,8 +96,8 @@ header h2 {
 
 .buy-now button {
     background-color: #ff5722;
-    padding: 20px 40px;
-    font-size: 1.5rem;
+    padding: 25px 50px;
+    font-size: 1.6rem;
     border: none;
     color: white;
     border-radius: 50px;
@@ -111,6 +114,13 @@ footer {
     margin-top: 60px;
     padding: 15px;
     background-color: #ffeb3b;
+}
+
+footer p {
+    font-size: 1rem;
+    color: #6d4c41;
+}
+
 }
 
     padding: 15px;
